@@ -7,7 +7,7 @@ terraform {
     organization = "Project_DevOps"
     
     workspaces {
-      name = "learn-terraform-eks"
+      name = "Project_DevOps-CD"
     }
   }
 }
@@ -33,6 +33,6 @@ terraform {
     }
   }
 
-  required_version = "~> 1.3"
+  required_version = "~> 1.7.3"
 }
 
